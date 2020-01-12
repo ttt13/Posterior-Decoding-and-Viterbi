@@ -6,8 +6,9 @@ DNA sequences are made up of the nucleotides adenine (A), guanine (G), cytosine 
 
 This program uses Hidden Markov Models (HMMs) to detect C/G rich regions. The program will use the Viterbi and Posterior algorithms.
 
-## Viterbi Algorithm
-
-## Posterior decoding algorithm
-
 ## Output and Testing
+The program will output two files in the following format:
+* The first file is the output of the Viterbi algorithm. The first and second lines are the number of inferred 0 or 1 states respectively in the inferred sequence of states.
+* The second file is similar to the first, but is generated using the Posterior Decoding Algorithm.
+
+To run the program, enter the following command: ```python a3_template.py "small.out"```
